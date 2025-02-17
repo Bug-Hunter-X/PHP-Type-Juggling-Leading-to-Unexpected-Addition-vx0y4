@@ -1,0 +1,1 @@
+function foo(int $a, int $b): int { return $a + $b; } function bar(int $x): int { return foo($x, 5); } $result = bar(10); echo $result;  //Use strict type checking and type hinting to prevent such errors
