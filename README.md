@@ -1,0 +1,1 @@
+This example demonstrates a common error in PHP related to type juggling. The function `foo` expects two integer arguments, but `bar` passes a string. PHP's loose typing allows this, but it leads to unexpected string concatenation rather than numeric addition. The solution shows how to use type hinting and strict comparisons to prevent this error.
